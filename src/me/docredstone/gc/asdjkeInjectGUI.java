@@ -12,7 +12,7 @@ public class asdjkeInjectGUI {
 	
 	public Map<Integer, String> chatHistory = new HashMap<Integer, String>();
 	
-	List<String> visibleChat = new ArrayList<String>();
+	List<Player> visibleChat = new ArrayList<Player>();
 	 
 	public void InjectGui(String msg, Player sender, String intercept){
 		  

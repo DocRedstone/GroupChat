@@ -1,0 +1,8 @@
+name: GroupChat
+main: package me.docredstone.gc.Main
+version: 1.0
+description: >
+             Chat in custom channels that only certain users can see.
+commands:
+  joinchat:
+    description: Join a channel

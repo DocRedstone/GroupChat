@@ -11,6 +11,7 @@ public class PlayerChatListener implements Listener {
 
 	@EventHandler
 	public void playerChat(PlayerChatEvent event) {
+		event.setCancelled(true);
 		asdjkeInjectGUI injectGUI = new asdjkeInjectGUI();
 		for (Player p : Bukkit.getServer().getOnlinePlayers()) {
 			if (!injectGUI.visibleChat.contains(p)) {
